@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Randomizer</title>
+</head>
+<body>
+    <section class="pagina">
+    <div class="container">
+        <div class="container__direita">
+            <h1 class="container__titulo">Randomizador de Filmes!</h1>
+            <p class="container__texto">Insira no campo abaixo o nomes dos <strong class="container__titulo__bold">filmes que serão sorteados.</strong></p>
+            <form> 
+                <input class="container__filmes" placeholder="Insira o nome filme" id="container__filme">
+                <button class="filmes__botao__salvar" id="botao__salvar">Adicionar Filme</button>
+        </div>
+        </form>
+            <div class="lista__de__filmes">
+                <h2 class="titulo__lista">Filmes adicionados:</h2>
+                <ul id="lista">
+                </ul>
+            </div>
+    </div>
+    <div class="sorteio">
+        <button class="sorteio__botao" id="sorteio__botao">Sortear!</button>
+    </div>
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>
